@@ -1,0 +1,1303 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: yekan;
+}
+:root {
+  --font-family: yekan;
+}
+@font-face {
+  font-family: yekan;
+  src: url(../B\ Yekan_YasDL.com.woff);
+}
+div.heder {
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 999;
+}
+div.heder > img {
+  width: inherit;
+}
+div.heder2 {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  margin: 0 auto;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+}
+div.heder2 > div.poshe {
+  width: 550px;
+  height: 40px;
+}
+div.heder2 > div.logo {
+  width: 110px;
+}
+div.heder2 > div.logo > img {
+  width: inherit;
+  position: relative;
+  right: 10px;
+  top: 8px;
+}
+div.heder2 form > input {
+  width: 500px;
+  height: 40px;
+  background-color: rgb(223, 223, 223);
+  border: none;
+  border-radius: 10px;
+  text-align: right;
+  position: relative;
+  right: 20px;
+  padding-right: 50px;
+}
+div.heder2 div.h {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  bottom: 30px;
+  right: 40px;
+  color: gray;
+}
+div.heder2 > div.w {
+  width: 170px;
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
+}
+div.heder2 > div.w > span {
+  border-right: 1px solid gray;
+}
+div.heder2 a {
+  text-decoration: none;
+  color: gray;
+  border-radius: 10px;
+  border: solid 1px rgb(167, 167, 167);
+  padding: 5px 13px;
+  margin-left: 15px;
+}
+/*menu*/
+div.menu {
+  width: 100%;
+  height: 40px;
+  margin: 0px auto;
+  border-bottom: 1px solid rgb(166, 166, 166);
+}
+div.menu > nav {
+  width: 100%;
+  height: inherit;
+  line-height: 50px;
+}
+div.menu > nav > ul {
+  width: 98%;
+  height: inherit;
+  text-align: right;
+  margin: 0 auto;
+}
+div.menu > nav > ul > li {
+  display: inline;
+  margin-right: 20px;
+  line-height: 50px;
+  padding: opx 25px;
+}
+div.menu li.p {
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+  list-style: none;
+  display: inline-block;
+}
+div.menu > nav > ul > li:hover {
+  border-bottom: 2px solid red;
+}
+div.menu > nav > ul > li:last-of-type {
+  border-bottom: unset;
+  margin-right: 320px;
+}
+div.menu > nav > ul > li > a {
+  text-decoration: none;
+  color: rgb(100, 100, 100);
+  font-size: 14px;
+}
+div.menu > nav > ul > li span {
+  color: gray;
+  font-size: 12px;
+}
+div.menu > nav > ul > li > div.submenu {
+  width: 95%;
+  height: 400px;
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 141px;
+  background-color: white;
+  padding: 0px 20px;
+  margin: 0 20px;
+  box-shadow: 2px 1px 7px rgb(191, 191, 191);
+}
+div.menu div.submenua {
+  width: 200px;
+  height: 400px;
+  background-color:white;
+  display: inline-block;
+}
+div.submenu li {
+  list-style: none;
+  color: black;
+  font-size: 2vh;
+}
+div.submenu li a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+div.menu > nav > ul > li:hover > div.submenu {
+  z-index: 2;
+  display: inline-block;
+  bottom: 100px;
+}
+div.menu > nav > ul > li:hover > div.submenu li > a {
+  font-size: 14px;
+  color: gray;
+}
+div.menu > nav > ul > li:hover > div.submenu li > a:hover {
+  color: rgb(255, 0, 0);
+}
+div.submenu1 {
+  width: 18%;
+  height: 380px;
+  display: none;
+  position: absolute;
+  padding: 0px 20px;
+  top: 10px;
+  left: 850px;
+  background-color: white;
+}
+div.submenu li:hover > div.submenu1 {
+  z-index: 2;
+  display: inline-block;
+}
+/*product*/
+div.product {
+  width: 96%;
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin: 20px auto;
+}
+div.product > div.product1 {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  display: inline-block;
+}
+div.product > div.product1 > a {
+  color: black;
+  display: inline-block;
+  text-decoration: none;
+}
+div.product > div.product1 > div.product2 {
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  border: 2px solid red;
+  margin: 0 auto;
+  width: 80px;
+}
+div.product > div.product1 > div.product2 > img {
+  width: 70px;
+  border-radius: 50%;
+}
+section.shgeft img {
+  height: 100%;
+  width: 100%;
+}
+/*main*/
+div.main {
+  width: 96%;
+  height: 120px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+div.main > div.a1 {
+  width: 200px;
+  height: 90px;
+  display: inline-block;
+}
+div.main > div.a1 > img {
+  width: 60px;
+  height: 60px;
+}
+div.main > div.a2 {
+  width: 200px;
+  height: 77px;
+  display: inline-block;
+}
+div.main > div.a2 > img {
+  width: 60px;
+  height: 60px;
+}
+div.main > div.a3 {
+  width: 209px;
+  height: 77px;
+  display: inline-block;
+}
+div.main > div.a3 > img {
+  width: 60px;
+  height: 60px;
+}
+div.main > div.a4 {
+  width: 209px;
+  height: 77px;
+  display: inline-block;
+}
+div.main > div.a4 > img {
+  width: 60px;
+  height: 60px;
+}
+div.main > div.a5 {
+  width: 209px;
+  height: 77px;
+  display: inline-block;
+}
+div.main > div.a5 > img {
+  width: 60px;
+  height: 60px;
+}
+div.main > div.a6 {
+  width: 209px;
+  height: 77px;
+  display: inline-block;
+}
+div.main > div.a6 > img {
+  width: 60px;
+  height: 60px;
+}
+div.main p {
+  font-size: 13px;
+}
+div.main > div.a7 {
+  width: 209px;
+  height: 77px;
+  display: inline-block;
+  text-align: center;
+}
+div.main > div.a7 > div.a {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: white;
+  display: inline-block;
+  margin-top: 10px;
+}
+div.main > div.a7 > div.a > span {
+  color: gray;
+  line-height: 60px;
+  text-align: center;
+}
+
+/*slider*/
+div.mySwiper {
+  background-color: rgb(239, 59, 80);
+  width: 96%;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 25px auto;
+}
+div.mySwiper div.a {
+  width: 150px;
+  height: 300px;
+  text-align: center;
+  font-size: var(--font);
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  background-color: rgb(239, 59, 80);
+}
+div.mySwiper div.a > img {
+  width: 90px;
+  position: relative;
+  bottom: 15px;
+}
+div.mySwiper div.a > a {
+  color: white;
+  font-size: var(--font);
+  text-decoration: none;
+}
+div.swiper-slide {
+  background-color: white;
+  text-align: center;
+}
+div.swiper-slide > div.d {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  bottom: 30px;
+}
+div.mySwiper div.d > p {
+  color: rgb(40, 34, 34);
+  text-decoration: none;
+  display: inline-block;
+}
+div.swiper-slide > div.c {
+  width: 100%;
+  height: 43px;
+  text-align: left;
+}
+div.mySwiper div.c > p {
+  color: rgb(109, 109, 109);
+  text-decoration: none;
+  position: relative;
+  text-decoration: line-through;
+  left: 20px;
+  bottom: 20px;
+}
+div.mySwiper div.d > a {
+  text-decoration: none;
+  padding: 2px 7px;
+  color: white;
+  background-color: rgb(239, 59, 80);
+  border-radius: 15px;
+  display: inline-block;
+  font-size: 14px;
+}
+div.mySwiper img {
+  width: 200px;
+  display: inline-block;
+  margin: 20px 0;
+}
+div.mySwiper div.mw {
+  width: 100%;
+  height: 220px;
+}
+div.mySwiper div.mw > div.mm {
+  width: 50px;
+  height: 50px;
+  margin: 100px auto;
+  border-radius: 50%;
+  border: 1px solid lightseagreen;
+}
+div.mySwiper div.mm > i {
+  color: lightseagreen;
+  display: inline-block;
+  margin: 17px auto;
+}
+div.mySwiper div.mw > a {
+  text-decoration: none;
+  line-height: 20px;
+  color: rgb(75, 75, 75);
+  position: relative;
+  bottom: 80px;
+}
+/*pos*/
+div.pos {
+  width: 96%;
+  height: 120px;
+  background-color: rgb(238, 241, 242);
+  margin: 20px auto;
+  border-radius: 25px;
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+}
+div.pos > div.pos1 {
+  position: absolute;
+  right: 30px;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+div.pos > div.pos1 > div.pon {
+  margin-right: 20px;
+}
+div.pos > div.pos1 > div.pon > a {
+  text-decoration: none;
+  color: white;
+  line-height: 40px;
+  padding: 6px 17px;
+  background-color: rgb(57, 174, 0);
+  border-radius: 20px;
+}
+div.pos > div.pos2 {
+  margin: 20px 40px;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 50px;
+}
+div.pos > div.pos2 > div.po {
+  display: inline-block;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+div.pos div.o {
+  width: 35px;
+  height: 20px;
+  background-color: rgb(239, 57, 87);
+  border-radius: 20px;
+  position: relative;
+  bottom: 20px;
+  display: flex;
+}
+div.o > p {
+  color: white;
+  font-size: 14px;
+  display: flex;
+  position: relative;
+  right: 6px;
+  bottom: 1px;
+}
+div.pos > div.pos2 > div.pox {
+  width: 130px;
+  height: 43px;
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  border-radius: 25px;
+  margin: 20px 0px;
+}
+div.pos > div.pos2 > div.pox > i {
+  color: rgb(57, 174, 0);
+  margin-right: 5px;
+}
+div.pos > div.pos2 > div.pox > a {
+  text-decoration: none;
+  color: rgb(57, 174, 0);
+  line-height: 40px;
+  padding: 5px;
+  font-size: 15px;
+}
+div.pos > div.pos2 > div.po > img {
+  width: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+/*container*/
+div.container {
+  width: 96%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 16px;
+  margin: 0 auto;
+}
+div.container > img {
+  width: 24%;
+  border-radius: 15px;
+}
+/*container1*/
+div.container1 {
+  width: 96%;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+  margin: 45px auto;
+}
+div.container1 > div.menu1 {
+  width: 100%;
+  height: 80px;
+}
+div.menu1 > h2 {
+  text-align: center;
+  font-family: var(--font-family);
+}
+div.container1 > div.a {
+  width: 15%;
+  height: 215px;
+  flex-grow: 1;
+}
+div.container1 > div.a > img {
+  width: 75%;
+}
+div.container1 > div.a > p {
+  font-size: 1vw;
+
+  color: black;
+}
+/*container2*/
+div.container2 {
+  width: 96%;
+  height: 250px;
+  margin: 25px auto;
+  display: flex;
+  justify-content: space-between;
+}
+div.container1 > div.container2 > img {
+  width: 49%;
+  height: 245px;
+  border-radius: 20px;
+}
+/*align*/
+div.align {
+  width: 96%;
+  height: 470px;
+  text-align: center;
+  margin: 25px auto;
+}
+div.align > div.alignp {
+  width: 100%;
+  height: 370px;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid rgb(182, 182, 182);
+  margin-top: 20px;
+}
+div.align > div.alignp > h2 {
+  text-align: center;
+  padding: 25px 0px;
+}
+div.align p {
+  font-size: 1vw;
+  color: rgb(66, 66, 66);
+}
+div.align div.align1 {
+  width: 14.2%;
+  height: 184px;
+  margin: 0 auto;
+}
+div.align div.align1 > div.align11 {
+  width: 83px;
+  height: 83px;
+  display: inline-block;
+  margin: 30px 0px;
+}
+div.align div.align1 > div.align11 > img {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+}
+/*swiper4*/
+div.swiperx {
+  width: 96%;
+  height: 250px;
+  border-radius: 20px;
+  margin: 20px auto;
+  padding-top: 20px;
+  border: 1px solid rgb(182, 182, 182);
+}
+div.swiperx > div.mySwiper4 {
+  width: 97%;
+  height: 200px;
+  background-color: white;
+  padding-top: 20px;
+  text-align: center;
+}
+div.swiperx > div.mySwiper4 > h2 {
+  text-align: center;
+  display: inline-block;
+}
+div.swiperx > div.mySwiper4 > div.swiper-wrapper > div.u {
+  text-align: center;
+  border-left: 1px solid rgb(215, 215, 215);
+  height: 170px;
+  margin-top: 20px;
+}
+div.swiperx > div.mySwiper4 div.u > img {
+  width: 100px;
+  object-fit: cover;
+}
+div.swiperx > div.mySwiper4 > span {
+  color: rgb(228, 194, 0);
+  margin-left: 10px;
+}
+/*container3*/
+div.container3 {
+  width: 96%;
+  justify-content: space-around;
+  text-align: center;
+  height: 270px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+div.container3 > img {
+  width: 49%;
+  border-radius: 25px;
+  padding: 5px;
+}
+/*container4*/
+div.container4 {
+  width: 96%;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  display: flex;
+  margin: 20px auto;
+  border-radius: 25px;
+  height: 430px;
+  padding: 20px 0;
+  border: 1px solid rgb(189, 189, 189);
+}
+div.container4 > div.a {
+  width: 300px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  text-align: center;
+}
+div.container4 > div.a > div.a0 {
+  width: 300px;
+  height: 65px;
+  padding: 0px 5px;
+  text-align: right;
+  margin-right: 20px;
+}
+div.container4 > div.a0 > h4 {
+  color: black;
+  font-size: 1vw;
+}
+div.container4 p {
+  color: rgb(143, 143, 143);
+  margin: 10px 0;
+  font-size: 13px;
+}
+div.container4 > div.a {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  border-left: 1px solid rgb(163, 163, 163);
+}
+div.container4 > div.a:first-of-type {
+  border-left: unset;
+}
+div.container4 > div.a > div.a1 {
+  width: 140px;
+  height: 140px;
+}
+div.container4 > div.a > div.a1 > img {
+  width: 120px;
+  height: 120px;
+}
+div.container4 a {
+  text-decoration: none;
+  color: rgb(25, 191, 211);
+}
+div.container4 span {
+  color: rgb(25, 191, 211);
+  font-size: 11px;
+}
+/*khadamat*/
+div.khadamat {
+  width: 96%;
+  height: 400px;
+  background-color: rgb(148, 27, 128);
+  margin: 0 auto;
+  border-radius: 20px;
+  display: flex;
+}
+div.k1 {
+  width: 300px;
+  height: 170px;
+  margin: 25px 25px;
+  position: absolute;
+}
+div.k1 > img {
+  width: 130;
+  margin-top: 25px;
+  margin-right: 25px;
+}
+div.k1 > p {
+  color: white;
+  margin: 10px 25px;
+}
+div.k1 > a {
+  color: white;
+  padding: 6px 22px;
+  background-color: rgb(148, 27, 128);
+  text-decoration: none;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-right: 25px;
+  border: solid 1px white;
+  display: inline-block;
+}
+div.khadamat div.kh2 {
+  width: 840px;
+  height: 380px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  margin: 10px 10px;
+  flex-direction: column;
+  padding: 20px 20px;
+}
+div.khadamat div.kh3 {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+}
+div.khadamat div.kh3 > span {
+  color: rgb(148, 27, 128);
+  line-height: 30px;
+}
+div.khadamat div.kh3 > a {
+  text-decoration: none;
+  color: rgb(148, 27, 128);
+}
+div.khadamat div.kh3 > h3 {
+  text-decoration: none;
+  margin-left: 550px;
+  line-height: 30px;
+}
+div.khadamat div.kh3 > a {
+  font-size: 14px;
+}
+div.khadamat div.kh2 div.kh4 {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  margin-top: 20px;
+}
+div.kh2 div.kh4 > img {
+  width: 120px;
+  margin-top: 8px;
+}
+/*digiclub*/
+div.digiclub {
+  width: 96%;
+  height: 80px;
+  background-color: rgb(10, 114, 149);
+  margin: 10px auto;
+  border-radius: 10px;
+  padding: 8px 0;
+  display: flex;
+  justify-content: space-around;
+}
+div.digiclub > div.digiclub1 {
+  width: 30%;
+  height: 60px;
+  padding: 25px 15px;
+}
+div.digiclub span > i {
+  color: rgb(25, 191, 211);
+  line-height: 60px;
+}
+div.digiclub > div.digiclub1 > img {
+  width: 120px;
+  height: 50px;
+  position: relative;
+  right: 25px;
+  bottom: 16px;
+}
+div.digiclub > div.digiclub2 {
+  width: 22.5%;
+  height: 65px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+div.digiclub > div.digiclub2 > div.komaki {
+  width: 65px;
+  height: 58px;
+}
+div.digiclub > div.digiclub2 > img {
+  width: 120px;
+  height: 58px;
+}
+div.digiclub > div.digiclub2 > p {
+  color: black;
+  font-size: 15px;
+  display: inline-block;
+  line-height: 60px;
+  margin-right: 5px;
+}
+/*container5*/
+div.container5 {
+  width: 96%;
+  height: 450px;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: flex;
+  margin: 20px auto;
+  border: 1px solid rgb(182, 182, 182);
+  border-radius: 10px;
+}
+div.container5 > div.a {
+  width: 24.5%;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  border-left: 1px solid rgb(199, 199, 199);
+  justify-content: space-around;
+  text-align: center;
+}
+div.container5 > div.a:first-of-type {
+  border-left: unset;
+}
+div.container5 > div.a > div.a0 {
+  width: 300px;
+  height: 65px;
+  text-align: right;
+  margin-bottom: 20px;
+}
+div.container5 > div.a > div.a1 {
+  width: 50%;
+  height: 140px;
+  border-left: 1px solid rgb(182, 182, 182);
+  border-bottom: 1px solid rgb(182, 182, 182);
+}
+div.container5 > div.a > div.a1:nth-of-type(odd){
+  border-left: unset;
+}
+div.container5 > div.a > div.a1:nth-last-of-type(3){
+  border-bottom: unset;
+}
+div.container5 > div.a > div.a1:nth-last-of-type(2){
+  border-bottom: unset;
+}
+div.container5 img {
+  width:80%;
+  object-fit: cover;
+}
+div.container5 div.a2 {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  margin-top: 10px;
+  line-height: 40px;
+}
+div.container5 div.a2 > span {
+  color: rgb(25, 191, 211);
+  font-size: 11px;
+}
+div.container5 h4 {
+  color: black;
+  margin: 10px 0;
+}
+div.container5 a {
+  text-decoration: none;
+  color: rgb(25, 191, 211);
+  font-size: 14px;
+}
+div.container5 p {
+  color: rgb(127, 127, 127);
+  margin: 10px 0;
+  font-size: 12px;
+}
+/*swiper3*/
+div.porfrosh {
+  width: 96%;
+  height: 400px;
+  margin: 10px auto;
+  border-radius: 20px;
+  border: 1px solid gray;
+}
+div.porfrosh > div.mySwiper3 {
+  width: 100%;
+  height: 350px;
+  margin-top: 20px;
+}
+div.porfrosh > div.mySwiper3 > div.m {
+  height: 40px;
+  text-align: center;
+}
+div.porfrosh > div.mySwiper3 > div.m h2 {
+  display: inline-block;
+  margin: 0 auto;
+  color: rgb(39, 39, 39);
+}
+div.porfrosh > div.mySwiper3 > div.m span {
+  color: gold;
+  margin-left: 10px;
+}
+div.porfrosh > div.mySwiper3 > div.m a {
+  color: rgb(25, 191, 211);
+  text-decoration: none;
+  font-size: 15px;
+  position: relative;
+  right: 500px;
+}
+div.porfrosh > div.mySwiper3 > div.j > div.p > div.a {
+  height: 90px;
+  width: 330px;
+  margin-top: 12px;
+  margin-right: 15px;
+  display: flex;
+}
+div.porfrosh > div.mySwiper3 > div.j > div.p a {
+  text-decoration: none;
+  line-height: 90px;
+  display: inline-block;
+  color: gray;
+  font-size: 14px;
+}
+div.porfrosh > div.mySwiper3 > div.j > div.p p {
+  line-height: 90px;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(25, 191, 211);
+  margin-left: 5px;
+}
+div.porfrosh > div.mySwiper3 > div.j > div.p > div.a > img {
+  height: 80px;
+  width: 80px;
+}
+/*containers*/
+div.containers {
+  width: 96%;
+  height: 150px;
+  margin: 20px auto;
+  text-align: center;
+}
+div.containers > img {
+  width: 100%;
+  border-radius: 25px;
+  display: inline-block;
+}
+/*section*/
+div.section {
+  width: 96%;
+  height: 380px;
+  margin: 30px auto;
+  text-align: center;
+}
+div.section > div.a {
+  width: 95%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+div.section > div.a > div.text1 {
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  position: relative;
+  right: 20px;
+  text-align: right;
+}
+div.section > div.a > div.text2 {
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  background-color: white;
+}
+div.section > div.a > div.text2 > a {
+  text-decoration: none;
+  color: rgb(25, 191, 211);
+  font-size: 13px;
+}
+div.section > div.s {
+  width: 23%;
+  border-radius: 10px;
+  display: inline-block;
+  border: 1px solid rgb(197, 197, 197);
+  margin: auto 10px;
+}
+div.section > div.s > img {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+  object-fit: cover;
+}
+div.section > div.s > p {
+  padding: 10px 10px;
+  font-size: 13px;
+}
+div.section div.text2 > span {
+  font-size: 12px;
+  color: rgb(25, 191, 211);
+}
+/*footer*/
+div.footer {
+  width: 96%;
+  text-align: center;
+  height: 500px;
+  margin: 0 auto;
+  border-top: 1px solid gray;
+}
+div.footer > div.f {
+  width: 100%;
+  height: 80px;
+  text-align: right;
+  padding: 10px 5px;
+  margin: 20px auto;
+}
+div.footer > div.f > img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+div.footer > div.f > div.fx {
+  width: 600px;
+  height: 30px;
+}
+div.footer > div.f > div.fx > p {
+  text-align: right;
+  color: rgb(87, 87, 87);
+  font-size: 14px;
+}
+div.footer > div.f > a {
+  padding: 6px 17px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: 1px solid rgb(180, 180, 180);
+  color: gray;
+  position: relative;
+  right: 950px;
+  font-size: 14px;
+}
+div.footer > div.f1 {
+  width: 93%;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
+  flex-direction: row-reverse;
+}
+div.footer > div.f1 > div.f2 {
+  width: 150px;
+}
+div.footer > div.f1 > div.f2 > a {
+  text-decoration: none;
+  color: black;
+  font-size: 1vw;
+  display: block;
+}
+div.footer > div.f > p {
+  color: rgb(80, 80, 80);
+  font-size: 14px;
+}
+div.d p {
+  color: grey;
+  font-size: 13px;
+  text-decoration-line: line-through;
+}
+div.f {
+  width: 95%;
+}
+div.f > a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: var(--font);
+  font-size: var(--font-size);
+}
+/*footer1*/
+div.footer1 {
+  width: 98%;
+  height: 390px;
+  display: flex;
+  justify-content: space-between;
+  margin: 25px auto;
+}
+div.footer1 > div.f3 {
+  width: 24%;
+  height: 340px;
+  text-align: right;
+}
+div.footer1 > div.f4 {
+  width: 300px;
+  height: 340px;
+  text-align: right;
+}
+div.footer1 > div.f3 > a {
+  text-decoration: none;
+  color: rgb(117, 117, 117);
+  padding-top: 20px;
+  display: block;
+  font-size: 14px;
+}
+div.footer1 > div.f4 > div.f5 {
+  width: 80%;
+  height: 50px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+div.footer1 > div.f4 > div.f5 > img {
+  width: 30px;
+  height: 30px;
+}
+div.footer1 div.f6 {
+  width: 100%;
+  height: 150px;
+  margin-top: 25px;
+}
+div.footer1 input {
+  width: 230px;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  text-align: right;
+  font-size: 17px;
+  padding-right: 5px;
+  margin: 10px 0px 5px;
+  color: rgb(123, 123, 123);
+  background-color: rgb(241, 242, 244);
+}
+div.footer1 div.f6 > h4 {
+  color: gray;
+  font-size: 17px;
+}
+div.footer1 div.f7 > input {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  font-size: 15px;
+  padding-right: 5px;
+  margin: 10px 0px 5px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(224, 224, 230);
+}
+div.footerx {
+  width: 96%;
+  height: 80px;
+  background-color: rgb(60, 75, 109);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: 60px auto;
+}
+div.footerx > div.a {
+  width: 500px;
+  height: 60px;
+  display: flex;
+  margin: auto 0;
+}
+div.footerx div.a > img {
+  width: 45px;
+  height: 45px;
+  margin: auto 10px;
+}
+div.footerx div.b {
+  width: 510px;
+  height: inherit;
+  margin: auto 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(60, 75, 109);
+}
+div.footerx div.b > img {
+  width: 130px;
+  height: 50px;
+  margin: auto 0px;
+  border-radius: 10px;
+}
+div.footerx p {
+  color: white;
+  font-size: 25px;
+  display: inline-block;
+  margin: auto 10px;
+}
+div.footerx div.c {
+  width: 40px;
+  height: 40px;
+  margin: auto 0px;
+  border-radius: 10px;
+  background-color: white;
+}
+div.footerx div.c > img {
+  width: 40px;
+  height: 40px;
+  margin: auto 0px;
+  border-radius: 10px;
+}
+div.payan {
+  width: 98%;
+  height: 200px;
+  padding-top: 25px;
+  margin: 30px auto;
+  border-top: 1px solid rgb(182, 182, 182);
+  display: flex;
+}
+div.payan > div.payan1 {
+  width: 70%;
+  height: 150px;
+  padding-left: 30px;
+  overflow: scroll;
+  overflow-x: unset;
+}
+div.payan > div.payan1 > h2 {
+  color: grey;
+}
+div.payan > div.payan1 > h3 {
+  color: grey;
+}
+div.payan > div.payan1 > p {
+  color: rgb(60, 60, 60);
+  font-size: 13px;
+  text-align: justify;
+}
+div.payan > div.payan2 {
+  width: 30%;
+  text-align: center;
+}
+div.payan > div.payan2 > div.logo {
+  height: 110px;
+  width: 110px;
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px solid rgb(167, 167, 167);
+  text-align: center;
+}
+div.payan > div.payan2 > div.logo > img {
+  height: 65px;
+  width: 65px;
+  object-fit: cover;
+  margin-left: 2px;
+  margin-top: 25px;
+}
+div.footerlogo {
+  width: 96%;
+  height: 270px;
+  margin: 0 auto;
+  border-top: 1px solid rgb(186, 186, 186);
+  padding-top: 25px;
+}
+div.footerlogo > p {
+  text-align: center;
+  color: rgb(126, 126, 126);
+  font-size: 13px;
+}
+div.footerlogo1 {
+  width: 100%;
+  background-color: rgb(241, 242, 244);
+  margin: 20px auto;
+  text-align: center;
+}
+div.footerlogo1 > img {
+  width: 10.8%;
+  height: 90px;
+  padding: 30px 15px;
+  border: 1px solid rgb(189, 189, 189);
+  border-left: unset;
+  border-top: unset;
+}
+div.poshtibani {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(239, 89, 86);
+  border-radius: 50%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+div.poshtibani > span {
+  color: white;
+  object-fit: cover;
+  font-size: 30px;
+  position: relative;
+  right: 10px;
+  top: 5px;
+}
